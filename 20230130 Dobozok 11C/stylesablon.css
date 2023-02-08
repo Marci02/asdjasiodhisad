@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(red,orange, yellow,green,blue,purple);
+    background-attachment: fixed;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bigbox{
+    width: 600px;
+    height: 500px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.shape{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.box-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#element-one{
+    background-color: red;
+}
+#element-two{
+    background-color: orange;
+
+}
+#element-three{
+    background-color: yellow;
+}
+#element-four{
+    background-color: lightgreen;
+}
+#element-five{
+    background-color: green;
+}
+#element-six{
+    background-color: lightblue;
+}
+#element-seven{
+    background-color: purple;
+}
+#element-eight{
+    background-color: pink;
+}
+#element-nine{
+    background-color: darkmagenta;
+}
+
+.blur{
+    filter: blur(5px);
+}
+.text{
+    display: table;
+    margin: auto;
+    font-size: 50px;
+    line-height: 100px;
+}
+
+.parent-table{
+    display: table;
+    text-align: center;
+}
+
+.child-table{
+    display: table-cell;
+    font-size: 30px;
+    vertical-align: middle;
+}
